@@ -1,0 +1,33 @@
+$theme_color_1: aliceblue;
+$theme_color_2: #ff0101;
+$theme_color_3: #1acc6f;
+$theme_color_4: #ffffff;
+$theme_color_5: #0b569b;
+$theme_color_6: #1f3126;
+//#aaff01
+$theme_color_dark_grey: #484848;
+
+$theme_color_blue: #0b9dd8;
+$theme_color_blue_2x: #bfe1ef;
+
+$theme_color_light_blue: #84ceeb;
+$theme_color_light_blue_2x: #e5f7ff;
+$theme_color_light_blue_3x: #e4f1f7;
+
+$theme_color_lime: #8ce5b6;
+$theme_color_dark_lime: #73d8bb;
+$theme_color_light_lime: #9fe3bf;
+
+$theme_color_white: #ffffff;
+
+$theme_color_light_grey: #a7a7a7;
+
+$theme_color: rgb(121, 177, 222);
+$theme_background: linear-gradient(90deg,
+        $theme_color_2 0%,
+        $theme_color_3 35%,
+        $theme_color_4 100%);
+
+// $theme_background: linear-gradient(30deg, #EE5A3B 0%, #F8AF30 100%); /* w3c */
+// $theme_background:linear-gradient(30deg, #72c7ed 10%, #8390c6 100%); /* w3c */
+$theme_background: #f98036;
