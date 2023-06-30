@@ -1,0 +1,191 @@
+@import "../../styles/config/color";
+@import "../../styles/config/ui";
+
+nav {
+  width: 100vw;
+  height: 100px;
+  background-color: $theme_color_1;
+  box-shadow: $global_box_shadow;
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+img {
+  width: 100px;
+  border-radius: 50%;
+}
+
+.nav-row {
+  width: 100%;
+  display: flex;
+}
+
+.nav-col {
+  width: 50%;
+}
+
+.nav-col-side {
+  width: 25%;
+}
+
+// for search box
+.searchBox {
+  display: flex;
+  width: 100%;
+  height: 60px;
+  margin: 20px 0px;
+  border-radius: 10px;
+  border: 1px solid;
+}
+
+input {
+  width: 70%;
+  margin: 5px;
+  border: transparent;
+  background: transparent;
+  font-size: 20px;
+}
+
+select {
+  width: 20%;
+  border: transparent;
+  background: transparent;
+  font-size: 1.5rem;
+}
+
+.search {
+  width: 10%;
+}
+
+.search-button {
+  width: 100%;
+  height: 60px;
+  border: transparent;
+  background: transparent;
+}
+
+//login button
+.login-button {
+  width: 100px;
+  height: 50px;
+  margin: 25px 0px;
+  font-size: 22px;
+  background-color: red;
+  color: white;
+  border-radius: 10px;
+  border: transparent;
+  transition: 0.6s;
+  cursor: pointer;
+}
+
+.login-button:hover {
+  background: rgb(219, 4, 4);
+}
+
+.toggle-menu {
+  display: none;
+}
+
+// media query
+
+@media only screen and (min-width: 367px) and (max-width: 992px) {
+
+  /* CSS rules for screens with width between 767px and 992px */
+  nav {
+    width: 100vw;
+    height: 100px;
+    background-color: $theme_color_1;
+    box-shadow: none;
+  }
+
+  .navbar-medium {
+    width: 100%;
+    height: 100vh;
+    background-color: $theme_color_1;
+    position: absolute;
+    top: 100px;
+  }
+
+  .center {
+    margin: 60px;
+  }
+
+  .select-login {
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .toggle-menu {
+    display: block;
+    width: 60px;
+    height: 50px;
+    margin: 25px auto;
+    font-size: 22px;
+    background-color: transparent;
+    border-radius: 10px;
+    border: transparent;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+
+  .menu {
+    color: black;
+    font-size: 40px;
+  }
+
+  .searchBox-medium {
+    display: flex;
+    width: 100%;
+    height: 60px;
+    margin: 20px 0px;
+    border-radius: 10px;
+    border: 1px solid;
+  }
+
+  .search-medium {
+    width: 15%;
+  }
+
+  .select {
+    width: 120px;
+    font-size: 1.5rem;
+  }
+
+  input {
+    width: 90%;
+    margin: 5px;
+    border: transparent;
+    background: transparent;
+    font-size: 20px;
+  }
+
+  .login-button-medium {
+    width: 100px;
+    height: 50px;
+    margin: 25px 0px;
+    font-size: 22px;
+    background-color: red;
+    color: white;
+    border-radius: 10px;
+    border: transparent;
+    transition: 0.6s;
+    cursor: pointer;
+  }
+
+  .login-button-medium:hover {
+    background: rgb(219, 4, 4);
+  }
+
+  .searchBox,
+  .login-button {
+    display: none;
+  }
+}
+
+@media only screen and (min-width: 993px) {
+
+  .navbar-medium {
+    display: none;
+  }
+}
